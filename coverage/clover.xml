@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1598619822725" clover="3.2.0">
+  <project timestamp="1598619822725" name="All files">
+    <metrics statements="69" coveredstatements="35" conditionals="2" coveredconditionals="0" methods="43" coveredmethods="19" elements="114" coveredelements="54" complexity="0" loc="69" ncloc="69" packages="1" files="5" classes="5"/>
+    <file name="controller.js" path="/home/mehdi/Bureau/event-scheduler-new/event-scheduler-jest/src/controller.js">
+      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <line num="16" count="5" type="stmt"/>
+      <line num="17" count="5" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+      <line num="47" count="1" type="stmt"/>
+      <line num="56" count="1" type="stmt"/>
+      <line num="57" count="1" type="stmt"/>
+      <line num="66" count="1" type="stmt"/>
+      <line num="67" count="1" type="stmt"/>
+    </file>
+    <file name="models.js" path="/home/mehdi/Bureau/event-scheduler-new/event-scheduler-jest/src/models.js">
+      <metrics statements="15" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="4"/>
+      <line num="41" count="9" type="stmt"/>
+      <line num="42" count="9" type="stmt"/>
+      <line num="43" count="9" type="stmt"/>
+      <line num="44" count="9" type="stmt"/>
+      <line num="45" count="9" type="stmt"/>
+      <line num="53" count="0" type="stmt"/>
+      <line num="61" count="0" type="stmt"/>
+      <line num="69" count="0" type="stmt"/>
+      <line num="77" count="0" type="stmt"/>
+      <line num="85" count="1" type="stmt"/>
+      <line num="93" count="0" type="stmt"/>
+      <line num="101" count="1" type="stmt"/>
+      <line num="109" count="0" type="stmt"/>
+      <line num="117" count="1" type="stmt"/>
+      <line num="125" count="0" type="stmt"/>
+    </file>
+    <file name="repository.js" path="/home/mehdi/Bureau/event-scheduler-new/event-scheduler-jest/src/repository.js">
+      <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="30" count="0" type="stmt"/>
+      <line num="39" count="0" type="stmt"/>
+      <line num="47" count="0" type="stmt"/>
+      <line num="48" count="0" type="stmt"/>
+      <line num="53" count="0" type="stmt"/>
+      <line num="57" count="0" type="stmt"/>
+    </file>
+    <file name="serializer.js" path="/home/mehdi/Bureau/event-scheduler-new/event-scheduler-jest/src/serializer.js">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="19" count="0" type="stmt"/>
+    </file>
+    <file name="services.js" path="/home/mehdi/Bureau/event-scheduler-new/event-scheduler-jest/src/services.js">
+      <metrics statements="32" coveredstatements="15" conditionals="2" coveredconditionals="0" methods="18" coveredmethods="9"/>
+      <line num="17" count="4" type="stmt"/>
+      <line num="25" count="3" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+      <line num="36" count="3" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="41" count="3" type="stmt"/>
+      <line num="45" count="1" type="stmt"/>
+      <line num="53" count="1" type="stmt"/>
+      <line num="54" count="1" type="stmt"/>
+      <line num="55" count="1" type="stmt"/>
+      <line num="56" count="3" type="stmt"/>
+      <line num="60" count="1" type="stmt"/>
+      <line num="63" count="1" type="stmt"/>
+      <line num="71" count="0" type="stmt"/>
+      <line num="74" count="0" type="stmt"/>
+      <line num="75" count="0" type="stmt"/>
+      <line num="77" count="0" type="stmt"/>
+      <line num="80" count="0" type="stmt"/>
+      <line num="81" count="0" type="stmt"/>
+      <line num="82" count="0" type="stmt"/>
+      <line num="83" count="0" type="stmt"/>
+      <line num="84" count="0" type="stmt"/>
+      <line num="85" count="0" type="stmt"/>
+      <line num="94" count="0" type="stmt"/>
+      <line num="104" count="0" type="stmt"/>
+      <line num="105" count="0" type="stmt"/>
+      <line num="106" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="117" count="0" type="stmt"/>
+      <line num="133" count="0" type="stmt"/>
+      <line num="134" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>

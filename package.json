@@ -29,7 +29,7 @@
     "node-mocks-http": "^1.8.1",
     "nodemon": "^2.0.2"
   },
-    "jest": {
-      "globalSetup": "/github/workspace/globalSetup.js"
+  "jest": {
+    "globalSetup": "./globalSetup.js"
   }
 }
