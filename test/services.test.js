@@ -36,7 +36,7 @@ describe("Event Service", () => {
 
     test('getFirstEvent shall return first result', async () => {
         let eventService = new EventService(new EventRepository());
-        expect(eventService.getFirstEvent()).toStrictEqual(new Date('2018-12-17T02:24:00.000Z'));
+        expect(eventService.getFirstEvent()).toStrictEqual(new Date('2018-12-17T03:24:00.000Z'));
     })
 
     test('getLastEvent shall return last result', async () => {
