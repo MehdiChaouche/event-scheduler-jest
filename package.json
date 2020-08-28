@@ -30,6 +30,6 @@
     "nodemon": "^2.0.2"
   },
     "jest": {
-      "globalSetup": "event-scheduler-jest/globalSetup.js"
+      "globalSetup": "/github/workspace/globalSetup.js"
   }
 }
