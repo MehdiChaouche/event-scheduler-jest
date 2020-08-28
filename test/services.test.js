@@ -32,4 +32,16 @@ describe("Event Service",()=> {
         let eventService = new EventService(new EventRepository());
         expect(eventService.getEvents().length).toBe(3);
     })
+
+    test('getFirstEvent shall return first result', async () => {
+        let eventService = new EventService(new EventRepository());
+        expect(eventService.getFirstEvent()).toStrictEqual(new Date('2018-12-17T02:24:00.000Z'));
+    })
+
+    test('getLastEvent shall return last result', async () => {
+        let eventService = new EventService(new EventRepository());
+        expect(eventService.getLastEvent()).toStrictEqual(new Date('2020-04-01T09:00:00'));
+    })
+
+
 });

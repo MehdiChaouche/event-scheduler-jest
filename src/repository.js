@@ -15,8 +15,19 @@ export default class EventRepository {
      * Get all events saved in db
      * @return Event[]
      */
-    getAll(){
-        return []; //TODO
+    getAll() {
+        // let tab = [];
+        // let events = this._dbDriver._events;
+        // if (!events.length) {
+        //     for (let i = 0; i < events.length; i++) {
+        //         tab.push(events[i]);
+        //     }
+        //     return tab;
+        // } else {
+        //     return null;
+        // }
+        console.log("Passing through repository.js>getAll()")
+        return null;
     }
 
     /**
@@ -24,12 +35,12 @@ export default class EventRepository {
      * return true if succeed
      * @return boolean
      */
-    add(event){
+    add(event) {
         return false; //TODO
     }
 }
 
-export class InMemoryEventRepository extends EventRepository{
+export class InMemoryEventRepository extends EventRepository {
     _events;
 
     constructor(events) {

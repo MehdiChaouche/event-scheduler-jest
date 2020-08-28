@@ -1,4 +1,3 @@
-
 import EventRepository from "./repository";
 import Event from "./models";
 
@@ -31,7 +30,19 @@ export default class EventService {
      * @return {null | Event}
      */
     getFirstEvent() {
-        return null; //TODO
+        let events = this.getEvents();
+        let dates = [];
+        events.forEach(function (event) {
+            dates.push(event.startTime)
+        })
+
+        function extracted(dates) {
+            return dates.sort(function (a, b) {
+                return Date.parse(a) - Date.parse(b);
+            })[0];
+        }
+
+        return extracted(dates);
     }
 
     /**
@@ -39,7 +50,17 @@ export default class EventService {
      * @return {null | Event}
      */
     getLastEvent() {
-        return null; //TODO
+        let events = this._eventRepository.getAll();
+        let dates = [];
+        events.forEach(function (ev) {
+            dates.push(ev.startTime)
+        })
+
+        function getLast(param1) {
+            return param1.slice(-1)[0];
+        }
+
+        return getLast(dates);
     }
 
     /**
@@ -47,6 +68,10 @@ export default class EventService {
      * @return {null | Event}
      */
     getLongestEvent() {
+        let events = this._eventRepository.getAll();
+        events.forEach(function (event, index) {
+
+        });
         return null; //TODO
     }
 
@@ -97,5 +122,5 @@ export default class EventService {
         let now = Date.now();
         return this.hasEventOn(new Date(now));
     }
-    
+
 }
