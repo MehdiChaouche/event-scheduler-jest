@@ -30,6 +30,6 @@
     "nodemon": "^2.0.2"
   },
     "jest": {
-    "process.TZ" = "UTC"
+      "globalSetup": "event-scheduler-jest/globalSetup.js"
   }
 }
