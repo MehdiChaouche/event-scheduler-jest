@@ -30,6 +30,6 @@
     "nodemon": "^2.0.2"
   },
     "jest": {
-    "globalSetup": "./global-setup.js"
+    "process.TZ" = "UTC"
   }
 }
