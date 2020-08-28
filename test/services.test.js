@@ -44,8 +44,8 @@ describe("Event Service", () => {
         expect(eventService.getLastEvent()).toStrictEqual(new Date('2020-04-01T09:00:00'));
     })
 
-    test('getLongestEvent shall return longest result', async () => {
-        let eventService = new EventService(new EventRepository());
-        expect(eventService.getLongestEvent()).toStrictEqual();
-    })
+    // test('getLongestEvent shall return longest result', async () => {
+    //     let eventService = new EventService(new EventRepository());
+    //     expect(eventService.getLongestEvent()).toStrictEqual();
+    // })
 });
